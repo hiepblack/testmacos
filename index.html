@@ -1,42 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inverted Border Card</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f0f0f0;
-            margin: 0;
-        }
-        .card {
-            position: relative;
-            width: 300px;
-            height: 200px;
-            background-color: white;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-        }
-        .card::before {
-            content: '';
-            position: absolute;
-            top: -10px;
-            left: -10px;
-            right: -10px;
-            bottom: -10px;
-            border: 10px solid #111;
-            z-index: -1;
-        }
-    </style>
+    <link rel="stylesheet" href="./index.css">
+    <title>footer</title>
 </head>
+
 <body>
-    <div class="card">
-        <h2>Card Title</h2>
-        <p>This is an example of an inverted border card.</p>
+    <div class="container">
+        <div class="footer">
+            <div class="footer-marquee">
+                <div class="wapper">
+                    <div class="marquee-text">
+                        <div>
+                            <img src="./asset/Iconshare.svg" alt="">
+                            <span>Hệ sinh thái SMEs</span>
+                        </div>
+                        <div>
+                            <img src="./asset/Iconshare.svg" alt="">
+                            <span>Hệ sinh thái SMEs</span>
+                        </div>
+                        <div>
+                            <img src="./asset/Iconshare.svg" alt="">
+                            <span>Hệ sinh thái SMEs</span>
+                        </div>
+                        <div>
+                            <img src="./asset/Iconshare.svg" alt="">
+                            <span>Hệ sinh thái SMEs</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="wapper-two">
+                    <div class="marquee-text">
+                        <div>
+                            <span>MobiFone nâng tầm cuộc sống</span>
+                            <img src="./asset/Iconshare.svg" alt="">
+                        </div>
+                        <div>
+                            <span>MobiFone nâng tầm cuộc sống</span>
+                            <img src="./asset/Iconshare.svg" alt="">
+                        </div>
+                        <div>
+                            <span>MobiFone nâng tầm cuộc sống</span>
+                            <img src="./asset/Iconshare.svg" alt="">
+                        </div>
+                        <div>
+                            <span>MobiFone nâng tầm cuộc sống</span>
+                            <img src="./asset/Iconshare.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-shape">
+                <img src="./asset/Rectangle240662576.svg" alt="">
+            </div>
+            <div class="content-footer">
+                <!-- 1 -->
+                <div class="box-input">
+                    <div class="infor">
+                        <h2>Cần tư vấn ngay?</h2>
+                        <p>Để lại thông tin của bạn, chúng tôi sẽ liên hệ ngay trong vòng 2 giờ</p>
+                    </div>
+                    <div class="input-box">
+                        <div class="input">
+                            <input type="text" placeholder="Họ và tên">
+                            <div>
+                                <input type="text" placeholder="Số điện thoại">
+                                <input type="text" placeholder="Email">
+                            </div>
+                            <input type="text" placeholder="Nội dung">
+                        </div>
+                        <button>
+                            <span>Gửi</span>
+                        </button>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="box-content">
+                    <div class="list-page">
+                        <ul>
+                            <li>Trang chủ</li>
+                            <li>Giới thiệu</li>
+                            <li>Tin tức</li>
+                            <li>Hỗ trợ</li>
+                            <li>Tư vấn
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>Dịch vụ</li>
+                            <li>Hạ tầng số</li>
+                            <li>Bảo mật</li>
+                            <li>Quản lý và vận hành</li>
+                            <li>Kinh doanh và Marketing
+                            </li>
+                            <li>Tài chính - Kế toán
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>Phân loại theo khách hàng</li>
+                            <li>Hộ kinh doanh & cá nhân</li>
+                            <li>Doanh nghiệp</li>
+                        </ul>
+                    </div>
+                    <div class="list-infor">
+                        <div>
+                            <img src="./asset/Logo Mobifone 1.svg" alt="">
+                        </div>
+                        <div class="infor-location">
+                            <div>
+                                <p>Địa chỉ</p>
+                                <p>01 phố Phạm Văn Bạch, Yên Hòa, Cầu Giấy, Hà Nội</p>
+                            </div>
+                            <div>
+                                <p>Email</p>
+                                <p>contact-itc@MobiFone.vn</p>
+                            </div>
+                            <div>
+                                <p>Liên hệ tư vấn sản phẩm</p>
+                                <p>0936.110.116</p>
+                            </div>
+                            <div>
+                                <p>Liên hệ hỗ trợ kỹ thuật</p>
+                                <p>0896.151.617</p>
+                            </div>
+                        </div>
+                        <div class="infor-icon">
+                            <div>
+                                <a href="">
+                                    <img src="./asset/Icon.svg" alt="" srcset="">
+                                </a>
+                                <a href="">
+                                    <img src="./asset/image 896.png" alt="" srcset="">
+                                </a>
+                                <a href="">
+                                    <img src="./asset/Call Chat.svg" alt="" srcset="">
+                                </a>
+                            </div>
+                            <div>
+                                <img src="./asset/image 895.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="footer-end">
+                    <div>
+                        <p>© 2025 MobiFone Vietnam all rights reserved</p>
+                    </div>
+                    <div class="footer-end-list">
+                        <a>
+                            <p>
+                                Chính sách bảo mật
+                            </p>
+                        </a>
+                        <a>
+                            <p>
+                                Điều khoản sử dụng
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>
